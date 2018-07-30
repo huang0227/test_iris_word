@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains  #鼠标事件
 
 driver=webdriver.Firefox()
-#driver.maximize_window()
+driver.maximize_window()
 
 #driver.set_page_load_timeout(10)
 try:
